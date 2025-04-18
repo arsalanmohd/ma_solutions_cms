@@ -6,8 +6,8 @@ plugins {
 }
 
 android {
+    compileSdk = flutter.targetSdkVersion
     namespace = "magraphicz.com.ma_solutions_cms"
-    compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
